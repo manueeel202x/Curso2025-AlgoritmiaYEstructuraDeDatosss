@@ -17,7 +17,6 @@ int Lista::retirarDeInicio(){
         } 
 
         else  {
-         
             int valor;
             Nodo *temp=cabeza;
             valor=temp->dato;
@@ -26,8 +25,6 @@ int Lista::retirarDeInicio(){
             tam--;
             return  valor;
             }
-        
-
 }
 
 void Lista::AdicionarEnOrden(int dato){
@@ -69,9 +66,6 @@ void Lista::Invertir(){
     lista_inv.insertarInicio(temp->dato);
     lista_inv.imprimir();
 }
-
-
-
 
 // Insertar al final
 void Lista::insertarFinal(int valor) {
